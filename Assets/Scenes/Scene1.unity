@@ -7207,6 +7207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe2240e8cb1e9c489d2f83ac404eb89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horseFadeTime: 1
   horse1: {fileID: 736117487}
   horse2: {fileID: 350765961}
   horse3: {fileID: 1069005381}
@@ -7582,6 +7583,7 @@ MonoBehaviour:
   fovMin: 60
   fovMax: 90
   fovLerpTime: 0.5
+  speedTextLerpTime: 0.5
 --- !u!4 &767006272
 Transform:
   m_ObjectHideFlags: 0

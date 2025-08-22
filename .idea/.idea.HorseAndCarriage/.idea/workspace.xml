@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3102e0e7-ed22-4bb5-a902-0941b05829f3" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/My/Scripts/CarriageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/My/Scripts/CarriageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/My/Scripts/HorseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/My/Scripts/HorseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/My/Scripts/SpeedManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/My/Scripts/SpeedManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Anvil.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Anvil.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Apple.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Apple.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Archert Target.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Archert Target.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Arrow Hit.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Arrow Hit.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Arrow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Arrow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Axe.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Axe.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Banner Pillar.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Banner Pillar.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Banner.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Banner.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Barrel.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Barrel.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Barricade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Barricade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Basket.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Basket.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard Noti 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard Noti 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard Noti 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard Noti 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard Noti 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard Noti 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard Noti 04.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard Noti 04.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Billboard.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bounding Platform 01 Base.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bounding Platform 01 Base.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bounding Platform 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bounding Platform 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bread.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bread.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Brick Wall.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Brick Wall.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bucket.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bucket.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bush 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bush 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bush 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bush 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bush 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Bush 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Campfire.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Campfire.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cauldron.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cauldron.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chain 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chain 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chain 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chain 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chair.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chair.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chest Golden.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chest Golden.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chest Iron.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chest Iron.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chest Silver.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chest Silver.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chest Wooden.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Chest Wooden.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 04.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 04.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 05.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 05.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 06.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 06.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 07.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 07.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 08.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cloth 08.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Clip.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Clip.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Pillar 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Pillar 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Pillar 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Pillar 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Rope 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Rope 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Rope 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Clother Hanger Rope 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Crate Large.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Crate Large.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Crate Small.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Crate Small.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cup.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Cup.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Elevator  Pully.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Elevator  Pully.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Elevator Platform.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Elevator Platform.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Nail.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Nail.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Pillar 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Pillar 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Pillar 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Pillar 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Pillar 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Pillar 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Rail 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Rail 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Rail 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Rail 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Rail 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 01 Rail 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 02 Pillar.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 02 Pillar.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 02 Rail.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fence 02 Rail.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fire Bowl.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Fire Bowl.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Flower 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Flower 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Flower 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Flower 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grain Box.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grain Box.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 04.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 04.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 05.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 05.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 06.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 06.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 07.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 07.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 08.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 08.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 09.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Grass 09.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gravestone 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gravestone 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gravestone 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gravestone 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gravestone 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gravestone 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gravestone 04.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gravestone 04.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gunny Bag 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gunny Bag 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gunny Bag 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Gunny Bag 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hammer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hammer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hanging Bag.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hanging Bag.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hay Bale.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hay Bale.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hay Fork.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hay Fork.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hay Pile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Hay Pile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Heavy Sword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Heavy Sword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Jump Platform 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Jump Platform 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Kettle.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Kettle.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 B.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 B.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 M.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 M.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side LB.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side LB.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side LM 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side LM 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side LM 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side LM 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side LT.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side LT.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side RB.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side RB.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side RM 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side RM 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side RM 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side RM 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side RT.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 Side RT.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 T.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 01 T.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Nail.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Nail.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Pillar A.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Pillar A.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Pillar B.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Pillar B.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Pillar C.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Pillar C.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Step A.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Step A.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Step B.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Step B.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Step C.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Ladder 02 Step C.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Log Bench.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Log Bench.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform Large 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform Large 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform Large 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform Large 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform X16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform X16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform X24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform X24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform X32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform X32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform X40.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Obstacle Platform X40.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform L 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform L 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform L 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform L 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform L 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform L 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform M 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform M 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform M 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform M 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform R 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform R 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform R 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform R 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform R 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Platform R 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pot 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pot 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pot 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pot 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pot 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pot 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pumpkin 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pumpkin 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pumpkin 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Pumpkin 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Lamp Light Off.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Lamp Light Off.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Lamp Light On.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Lamp Light On.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Lamp Pillar.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Lamp Pillar.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Lamp Support.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Lamp Support.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign Text 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign Text 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign Text 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign Text 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign Text 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Road Sign Text 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Rock 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Rock 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Rock 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Rock 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Rock 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Rock 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Scarecrow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Scarecrow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Seesaw 01 Board.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Seesaw 01 Board.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Seesaw 01 Support.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Seesaw 01 Support.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sign 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sign 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sign Text 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sign Text 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Slope Platform 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Slope Platform 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Spear.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Spear.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Spike Ball.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Spike Ball.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Spike Plate.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Spike Plate.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X40.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X40.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X48.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X48.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X64.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stairs X64.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Fruit 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Fruit 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Fruit 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Fruit 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Fruit 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Fruit 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Fruit 04.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Fruit 04.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Table.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Table.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Tent Pillar.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Tent Pillar.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Tent.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stall Tent.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Statue Bouquet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Statue Bouquet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Statue.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Statue.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stone of Recall - Glow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stone of Recall - Glow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stone of Recall.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stone of Recall.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stump.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Stump.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sunflower 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sunflower 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sunflower 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sunflower 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sunflower 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sunflower 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Sword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Table.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Table.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Torch.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Torch.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Training Dummy.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Training Dummy.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Tree 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Tree 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Tree 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Tree 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Weapon Rack.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Weapon Rack.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Well.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Well.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 04.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 04.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 05.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheat 05.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheelbarrow Wheel.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheelbarrow Wheel.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheelbarrow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wheelbarrow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - White Bottle.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - White Bottle.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wine Bottle.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wine Bottle.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wood Log 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wood Log 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wood Logs.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wood Logs.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 01.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 01.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 02.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 02.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 03.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 03.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 04.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 04.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 05.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Part 05.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Rope.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TX Village Props - Wooden Bridge Rope.asset.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/My/Scripts/HorseController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="31cuYduNu3ycOqW1yDwhSPwAVY9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
+    <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Github\HorseAndCarriage -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Github\HorseAndCarriage" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unity 시작" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Github\HorseAndCarriage -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Github\HorseAndCarriage" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unity 에디터에 연결" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unreal 에디터에 연결 후 재생" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="기기에 연결" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="3102e0e7-ed22-4bb5-a902-0941b05829f3" name="변경" comment="" />
+      <created>1755835731963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755835731963</updated>
+      <workItem from="1755835733581" duration="4542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

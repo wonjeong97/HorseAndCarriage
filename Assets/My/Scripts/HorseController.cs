@@ -1,18 +1,26 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HorseController : MonoBehaviour
 {
     public static HorseController Instance;
 
-    [Header("Horse Sprite")]
-    [SerializeField] private GameObject horse1;
-    [SerializeField] private GameObject horse2;
-    [SerializeField] private GameObject horse3;
-    [SerializeField] private GameObject horse4;
-    [SerializeField] private GameObject horse5;
+    [Header("Fade Time")]
+    public float horseFadeTime = 0.5f;
+
+    [Header("Horse Sprite")] 
+    public GameObject horse1;
+    public GameObject horse2;
+    public GameObject horse3;
+    public GameObject horse4;
+    public GameObject horse5;
 
     private int _upgradeCount;
+    private readonly List<GameObject> _horseList = new List<GameObject>();
+    private List<SpriteRenderer> _horseRenderers = new List<SpriteRenderer>();
+    private bool _isFading = false;
 
     private void Awake()
     {
@@ -35,15 +43,12 @@ public class HorseController : MonoBehaviour
     private void Start()
     {
         _upgradeCount = 1;
-
-        horse2.SetActive(false);
-        horse3.SetActive(false);
-        horse4.SetActive(false);
-        horse5.SetActive(false);
+        InitializeHorses();
     }
 
     private void Update()
     {
+        if (_isFading) return;
         if (Input.GetKeyDown(KeyCode.W))
         {
             UpgradeHorses();
@@ -55,53 +60,65 @@ public class HorseController : MonoBehaviour
         }
     }
 
+    private void InitializeHorses()
+    {
+        _horseList.Add(horse1);
+        _horseList.Add(horse2);
+        _horseList.Add(horse3);
+        _horseList.Add(horse4);
+        _horseList.Add(horse5);
+
+        foreach (var horse in _horseList)
+        {
+            var sr = horse.GetComponentInChildren<SpriteRenderer>();
+            _horseRenderers.Add(sr);
+
+            // 첫 번째 말만 보이고 나머지는 투명
+            if (sr != null && horse != horse1)
+            {
+                sr.color = new Color(1, 1, 1, 0);
+            }
+        }
+    }
+
+    private IEnumerator FadeHorse(int index, float startAlpha, float targetAlpha, float duration)
+    {
+        var horseSprite = _horseRenderers[index];
+        if (horseSprite)
+        {
+            _isFading = true;
+            float elapsed = 0f;
+
+            while (elapsed < duration)
+            {
+                horseSprite.color = new Color(1, 1, 1,
+                    Mathf.Lerp(startAlpha, targetAlpha, elapsed / duration));
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            horseSprite.color = new Color(1, 1, 1, targetAlpha);
+            _isFading = false;
+        }
+    }
+
     private void UpgradeHorses()
     {
-        if (_upgradeCount >= 5) return;
+        if (_upgradeCount >= _horseList.Count) return;
         _upgradeCount++;
         SpeedManager.Instance.Speed += 5f;
-        
-        switch (_upgradeCount)
-        {
-            case 2:
-                horse2.SetActive(true);
-                break;
-            case 3:
-                horse3.SetActive(true);
-                break;
-            case 4:
-                horse4.SetActive(true);
-                break;
-            case 5:
-                horse5.SetActive(true);
-                break;
-            default:
-                break;
-        }
+
+        StopAllCoroutines();
+        StartCoroutine(FadeHorse(_upgradeCount - 1, 0, 1, horseFadeTime));
     }
 
     private void DowngradeHorses()
     {
         if (_upgradeCount <= 1) return;
+        StopAllCoroutines();
+
+        StartCoroutine(FadeHorse(_upgradeCount - 1, 1, 0, horseFadeTime));
         _upgradeCount--;
         SpeedManager.Instance.Speed -= 5f;
-        
-        switch (_upgradeCount)
-        {
-            case 4:
-                horse5.SetActive(false);
-                break;
-            case 3:
-                horse4.SetActive(false);
-                break;
-            case 2:
-                horse3.SetActive(false);
-                break;
-            case 1:
-                horse2.SetActive(false);
-                break;
-            default:
-                break;
-        }
     }
 }

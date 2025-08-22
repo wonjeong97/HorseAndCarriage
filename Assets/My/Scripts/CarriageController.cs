@@ -9,7 +9,7 @@ public class CarriageController : MonoBehaviour
     [SerializeField] private GameObject carriage;
     
     [Header("Upgrade Settings")]
-    [SerializeField] private float scaleTime = 1.0f; 
+    [SerializeField] private float scaleTime = 0.5f; 
     [SerializeField] private float scaleStep = 0.2f; 
 
     private int _upgradeCount;
